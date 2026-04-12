@@ -4,7 +4,7 @@ import supabase from "./supa";
 
 export default function Home() {
 async function handleClick() {
-  await supabase.insert.into("test").values({ name: "John Doe" }).execute();}
+  await supabase.from("yan").insert([{name:"name"}])
   return <button onClick={handleClick}>Insert</button>
 
 } 
