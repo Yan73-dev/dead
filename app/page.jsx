@@ -8,6 +8,7 @@ async function handleClick() {
   await supa.from("yan").insert([{name:"name"}])
 
 }
-  return <button onClick={handleClick} style={{color:"red",background:"yellow"}}>Insert</button>
-
+  return <> <button onClick={handleClick} style={{color:"red",background:"yellow"}}>Insert</button>
+  <input type="text" placeholder="name" />
+</>
 } 
