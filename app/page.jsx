@@ -9,6 +9,6 @@ async function handleClick() {
 
 }
   return <> <button onClick={handleClick} style={{color:"red",background:"yellow"}}>Insert</button>
-  <input type="text" placeholder="name" />
+  <input type="text" placeholder="nme" />
 </>
 } 
