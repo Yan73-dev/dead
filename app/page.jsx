@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-import {supabase,supa} from "./supa";
+import {supabase} from "./supa";
 
 export default function Home() {
 async function handleClick() {
