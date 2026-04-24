@@ -14,6 +14,6 @@ export default function Home() {
   }
   return (
     <div>
-      <button type="button" onClick={handleClick}>scream</button>
+      <button type="button" onClick={handleClick}>screm</button>
     </div>
    )}
